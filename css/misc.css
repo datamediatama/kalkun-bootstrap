@@ -1,0 +1,274 @@
+.navmenu{
+font-size: 11px;
+margin: 0px;
+padding: 5px;
+height: 25px;
+color: #444;
+}
+
+.navmenu ul{
+margin: 1px;
+padding: 0;
+list-style-type: none;
+}
+
+/*Top level list items*/
+.navmenu ul li{
+position: relative;
+display: inline;
+float: left;
+}
+
+.navmenu ul li.paging{
+text-align: right;
+float: right;
+}
+
+/*Top level menu link items style*/
+.navmenu ul li a.button {
+display: block;
+/*margin-right: 2px; */ /*spacing between tabs*/
+/*border: 1px solid #778;*/
+color: #2d2b2b;
+text-decoration: none;
+
+/* me */
+background: url("../media/images/bg-button.gif") repeat-x;
+color: #000;
+padding: 1px 8px;
+border: 1px outset #F0F0F0;
+}
+
+
+.navmenu ul li div#paging {
+	display: inline;
+	background: none;	
+} 
+
+
+.navmenu ul li a:hover{
+	
+}
+	
+/*1st sub level menu*/
+.navmenu ul li ul{
+position: absolute;
+left: 0;
+display: block;
+visibility: hidden;
+border-top: 1px solid black;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.navmenu ul li ul li{
+display: list-item;
+float: none;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.navmenu ul li ul li ul{
+top: 0;
+}
+
+/* Sub level menu links style */
+.navmenu ul li ul li a{
+width: 160px; /*width of sub menus*/
+background: #86C0D2;
+color: #FFF;
+padding: 4px 5px;
+margin: 0;
+border-top-width: 0;
+border-bottom: 1px solid black;
+}
+
+.navmenu ul li ul li a:hover{ /*sub menus hover style*/
+background: #FFFFCC;
+color: black;
+}
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{
+position: absolute;
+top: 7px;
+right: 5px;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 5px;
+right: 5px;
+}
+
+#accordion .ui-accordion-content {
+  background: #000;
+  border: 0px;
+  padding: 10px 0px 10px 35px;
+}
+
+#accordion .ui-accordion-content a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#accordion .ui-accordion-content a:hover {
+  color: #ffffff;
+}
+
+#accordion .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+  background-color: transparent;
+  border: none;
+}
+
+#accordion .ui-accordion-header {
+  margin-left: 5px;
+}
+
+.good {
+  color: #71af02;
+  text-shadow: #000 0px 0px 1px;
+}
+
+.warning {
+  color: #df1f1f;
+  text-shadow: #000 0px 0px 1px;
+}
+
+/* jquery ui */
+.ui-widget-header { 
+	border: 1px solid #aaaaaa; 
+	font-weight: bold; 
+}
+
+/* Dialog */
+.dialog { display: none; }
+.dialog label, .dialog input { display:block; }
+.dialog input.text { margin-bottom:12px; width:95%; padding: .4em; }
+.dialog fieldset { padding:0; border:0; margin-top:25px; }
+.dialog h1 { font-size: 1.2em; margin: .6em 0; }
+.ui-button { outline: 0; margin:0; padding: .4em 1em .5em; text-decoration:none;  !important; cursor:pointer; position: relative; text-align: center; }
+.ui-dialog .ui-state-highlight, .ui-dialog .ui-state-error { padding: .3em;  }
+
+.contact_list {
+	min-height: 25px;
+	padding: 5px 0;
+	border-top: 1px solid #EEE;
+    
+}
+
+.toolbar {
+	background: #EEE;
+	padding: 5px;
+	border-top: 1px solid #000;	
+}
+
+.no_content {
+	padding: 20px;
+	margin: 0;
+}
+
+
+
+.send_message_success {
+	padding: 5px;
+	background: #eee;
+	border: 1px solid #ccc;	
+}
+
+.simplelink {
+	color: #333;
+	font-size: 11px;
+}
+
+.simplelink:hover {
+	color: #333;
+	text-decoration: underline;	
+}
+
+
+.current {
+	font-weight: bold;
+}
+
+/* Base */
+.base_color {
+	color: #ADD8E6;
+}
+
+.base_bg {
+	background-color: #ADD8E6;
+}
+
+.underline_link {
+	text-decoration: underline;	
+}
+
+.groupname a{
+    color:#000;
+    text-decoration:none ;	
+}
+
+.groupname a:hover{
+    color:#000;
+    text-decoration: underline;	
+}
+
+#pbkname a{
+    color:#000;
+    text-decoration:none ;	
+}
+
+#pbkname a:hover{
+    color:#000;
+    text-decoration: underline;	
+}
+
+
+.canned_list {
+    border-bottom: 1px solid #EEEEEE;
+    min-height: 25px;
+    padding: 5px 0;
+}
+
+.infocus{
+    font-style: italic;
+}
+
+.ui-datepicker {
+	z-index:10100;
+}
+
+.ui-dialog-titlebar-close{
+    display: none; 
+}
+
+.ui-widget-overlay
+{
+    background-color: black;
+    background-image: none;
+    opacity: 0.9;
+    z-index: 100;    
+}
+
+.hidden {
+	display: none;
+}
+
+#tabs .ui-tabs-active {
+    background: #FFFFFF;
+    border-color: #EEEEEE;
+}
+
+#tabs .ui-state-active a, #tabs .ui-state-active a:link, #tabs .ui-state-active a:visited {
+    color: #000000;
+    font-weight: bold;
+}
+
+#tabs .ui-widget-header {
+	border: 0px;
+    border-bottom: 1px solid #ddd;
+    background: #FFFFFF;
+ }
+
+
+ #tabs.ui-widget-content { border:none; padding:0px; margin:0px; }
